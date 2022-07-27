@@ -1,13 +1,13 @@
 source :rubygems
 
-gem 'rails', '3.2.8'
+gem 'rails', '5.2.8.1'
 gem 'pg'
 
 gem 'activeadmin'
 gem 'jquery-rails'
 gem "haml"
 
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 3.1.0'
 
 group :assets do
   gem 'sass-rails'
